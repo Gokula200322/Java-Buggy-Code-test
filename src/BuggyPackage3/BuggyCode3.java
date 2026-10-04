@@ -19,7 +19,7 @@ public class BuggyCode3 {
     }
 
     public boolean hasBalance(double expected) {
-        return balance == expected;
+        return balance == expected
     }
 
     public void applyMonthlyFee(String accountType) {
