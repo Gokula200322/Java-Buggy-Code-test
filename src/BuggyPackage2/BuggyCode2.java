@@ -18,7 +18,7 @@ public class BuggyCode2 {
         }
     }
 
-    private final List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>()
     private final Map<Product, Double> prices = new HashMap<>();
 
     public void add(Product p, double price) {
